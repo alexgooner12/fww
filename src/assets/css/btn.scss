@@ -1,0 +1,44 @@
+.button {
+	background-color: transparent;
+	border: none;
+	color: $white;
+	transition: .4s;
+	min-height: 2rem;
+	cursor: pointer;
+	outline: none;
+
+	&:hover {
+		transform: scale(.985);
+	}
+
+	&:active {
+		transform: scale(.97);
+	}
+
+	&.orange {
+		background-color: $orange;
+
+		&:hover {
+			background-color: $blue;
+		}
+	}
+
+	&.blue {
+		background-color: $darkBlue;
+		min-height: 5rem;
+		cursor: pointer;
+		transition: .4s;
+
+		&:hover {
+			background-color: $orange;
+		}
+	}
+
+	&.grey {
+		background-color: $grey;
+
+		&:hover {
+			background-color: $blue;
+		}
+	}
+}

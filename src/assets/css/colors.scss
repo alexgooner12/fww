@@ -1,0 +1,14 @@
+.color{
+	&-white{
+		color: $white;
+	}
+	&-black{
+		color: $black;
+	}
+	&-grey{
+		color: $grey;
+	}
+	&-red{
+		color: $red;
+	}
+}
