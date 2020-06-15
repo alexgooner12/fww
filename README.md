@@ -1,4 +1,8 @@
-# fww
+## fww
+
+Small app build with Vue
+
+## [Live demo](https://alexgooner12.github.io/fww)
 
 ## Project setup
 ```
