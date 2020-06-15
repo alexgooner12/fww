@@ -6,8 +6,7 @@
             </li>
         </ul>
         <span class="navigation__logo">
-            <a class="color-white" href="/">FACTORY
-                <span>WORLD WIDE</span>
+            <a class="color-red" href="/">RNA
             </a>
         </span>
       </nav>
@@ -72,15 +71,6 @@ export default {
 
         &.exact-active {
             color: $red !important;
-        }
-    }
-
-    &__logo {
-        color: $white;
-        text-decoration: none;   
-
-        & span {
-            color: $red;
         }
     }
 }
